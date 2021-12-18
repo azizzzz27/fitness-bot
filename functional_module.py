@@ -1,6 +1,5 @@
 def choose_program(arg):
     """Выбор программы по параметрам"""
-    print(arg[0], arg[1], arg[2], arg[3])
     messgae_text = f'Программа тренировок для {fillers[arg[2]]} на {arg[3]} дня для {fillers[arg[0]]} ' \
                    f'{fillers[arg[1]]} лет\n\n' + programs[arg[0]][arg[1]][arg[2]][arg[3]]
     return messgae_text
